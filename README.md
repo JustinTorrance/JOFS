@@ -1,7 +1,7 @@
 # Jackson Oral and Facial Surgery
 
 A website developed for Dr. Riley Hicks.  
-To view this repo, visit www.jacksonOFS.com.
+To view this repo, visit www.JacksonOFS.com.
 
 ## Author
 
