@@ -1,7 +1,9 @@
 @import 'normalize-scss';
 @import './components/Home/Home';
 
-body {
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 

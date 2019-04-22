@@ -1,13 +1,13 @@
 import React from 'react'
-import office from '../../assets/office.jpg'
+import map from '../../assets/map.png'
 
 const Home = () => {
   return (
     <main>
-      <header>
+      <section className='office-img'>
         <h1>Jackson Oral and Facial Surgery</h1>
         <h3>Dr. Riley J. Hicks</h3>
-      </header>
+      </section>
       <section className="contact-section">
         <article>
           <h3>Call or Visit Us Today</h3>
@@ -21,7 +21,7 @@ const Home = () => {
           <p>Hours: Mon - Fri: 8am - 5pm</p>
         </article>
         <article className='map-article'>
-          <img src={office} alt='Map of the office location' width='400px'/>
+          <img src={map} alt='Map of the office location' width='400px'/>
           <div className='view-map-div'>
             <p>View Map</p>
           </div>
