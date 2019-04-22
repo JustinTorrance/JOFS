@@ -1,4 +1,5 @@
 import React from 'react'
+import office from '../../assets/office.jpg'
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
           <p>Hours: Mon - Fri: 8am - 5pm</p>
         </article>
         <article className='map-article'>
-          <img src='../../assets/office.jpg' alt='Map of the office location'/>
+          <img src={office} alt='Map of the office location' width='400px'/>
           <div className='view-map-div'>
             <p>View Map</p>
           </div>
