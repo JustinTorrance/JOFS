@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|PT+Sans+Narrow');
+
+.header-section {
+  background-color: #2E65A7;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  height: 40px;
+  align-items: center;
+    
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+  transition: 300ms;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-color: white;
+  }
+}
