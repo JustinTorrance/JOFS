@@ -3,10 +3,12 @@ import map from '../../assets/map.png'
 
 const Home = () => {
   return (
-    <main>
+    <main className='home'>
       <section className='office-img'>
-        <h1>Jackson Oral and Facial Surgery</h1>
-        <h3>Dr. Riley J. Hicks</h3>
+        <div className='home-name-div'>
+          <h1 className='home-office-name'>Jackson Oral and Facial Surgery</h1>
+          <h3 className='home-doctor-name'>Dr. Riley J. Hicks</h3>
+        </div>
       </section>
       <section className="contact-section">
         <article>
