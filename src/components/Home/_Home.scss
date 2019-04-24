@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+.home {
+  font-family: 'Lato', sans-serif;
+}
+
+.office-img {
+  background-image: url('assets/office.jpg');
+  background-size: 135%;
+  height: 620px;
+  background-position: right bottom 10%;
+  background-repeat: none;
+  display: flex;
+  justify-content: center;
+}
+
+.home-name-div {
+  color: #263E76;
+  margin-top: 20px;
+}
+
+.home-office-name {
+  font-size: 3.2rem;
+  font-weight: 700;
+
+}
+
+.home-doctor-name {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.call-visit {
+  text-align: center;
+  color: #263E76;
+  margin: 30px;
+  font-size: 1.8rem;
+}
+
+.home-contact-section {
+  background-color: #263E76;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.home-contact-info {
+  font-size: 1.2rem;
+  p {
+    line-height: 30px;
+  }
+}
+
+.map-article-wrapper {
+  background-color: white;
+  margin-top: 30px;
+}
+
+.map-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;    
+    color:inherit;
+  }
+}
+
+.view-map-div {
+  background-color: #5EC0F9;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+    filter: opacity(.7);
+    transition: 200ms;
+  }
+}
+
+.office-map {
+  &:hover {
+    cursor: pointer;
+    filter: opacity(.7);
+    transition: 200ms;
+  }
+}
+
+.view-map {
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-weight: 900;
+}
