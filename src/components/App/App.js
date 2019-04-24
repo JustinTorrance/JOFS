@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom';
-import Home from '../Home/Home.js'
+import Home from '../Home/Home';
+import MeetDoctor from '../MeetDoctor/MeetDoctor';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className='header-section'>
-          <NavLink to='/' exact activeClassName='active' className='nav'>Home</NavLink>
+          <NavLink to='/' exact className='nav'>Home</NavLink>
           <NavLink to='/meet' className='nav'>Meet Dr. Hicks</NavLink>
           <NavLink to='/procedures' className='nav'>Procedures and Services</NavLink>
           <NavLink to='/patient' className='nav'>Patient Care</NavLink>
@@ -16,6 +17,7 @@ class App extends Component {
         </div>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route path='/meet' component={MeetDoctor} />
         </Switch>
         <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
       </div>

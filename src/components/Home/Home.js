@@ -7,7 +7,7 @@ const Home = () => {
       <section className='office-img'>
         <div className='home-name-div'>
           <h1 className='home-office-name'>Jackson Oral and Facial Surgery</h1>
-          <h3 className='home-doctor-name'>Dr. Riley J. Hicks</h3>
+          <h3 className='home-doctor-name'>Dr. Riley J. Hicks, DDS</h3>
         </div>
       </section>
       <section className="home-bottom">
