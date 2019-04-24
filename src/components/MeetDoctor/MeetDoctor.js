@@ -1,7 +1,11 @@
-import React from 'react';
+import React from 'react'
 import doctorHeadshot from '../../assets/doctorHeadshot.jpg'
 import drHicks from '../../assets/dr-hicks2.jpg'
+import surgery from '../../assets/dr-hicks3.jpg'
 import motorcycle from '../../assets/motorcycle.jpg'
+import family from '../../assets/family.jpg'
+import running from '../../assets/running.jpg'
+import climbing from '../../assets/climbing.jpg'
 
 const MeetDoctor = () => {
 
@@ -49,6 +53,7 @@ const MeetDoctor = () => {
             <li>Idaho State Dental Association</li>
             <li>Omicron Kappa Upsilon the National Honorary Dental Society</li>
           </ul>
+          <img src={drHicks} alt="Doctor Hicks preparing to see a patient" width='400px' />
         </article>
 
         <article className='experience'>
@@ -79,7 +84,7 @@ const MeetDoctor = () => {
             treatments and techniques. He is credentialed at both Idaho Falls hospitals and takes 
             on-call for any oral/facial trauma.
           </p>
-          <img src={drHicks} alt="Doctor Hicks preparing to see a patient" width='400px' />
+          <img src={surgery} alt="Doctor Hicks with staff operating on a patient" width='400px' />
         </article>
         
         <article className='beyond'>
@@ -99,14 +104,33 @@ const MeetDoctor = () => {
       </section>
 
       <section className='hobbies-section'>
-      
         <article className='hobby'>
           <img src={motorcycle} alt="Doctor Hicks racing motorcyles with his children" width='200px' />
           <h6>
-            Dr. Hicks (center) with sons Tanner (front), and Colton (back left) at Miller Motorsports race track.
+            Dr. Hicks (center) with sons Tanner (front), and Colton (back left) at Miller Motorsports race track
           </h6>
         </article>
 
+        <article className='hobby'>
+          <img src={family} alt="Doctor Hicks with his wife and children" width='200px' />
+          <h6>
+            Hicks family on Jackson Pass. From Left to Right, Colton, Tanner, Riley, Levi, Lisa, and Jasmyn
+          </h6>
+        </article>
+
+        <article className='hobby'>
+          <img src={running} alt="Doctor Hicks running an ultra marathon" width='200px' />
+          <h6>
+            Dr. Hicks frequently runs ultra marathons
+          </h6>
+        </article>
+
+        <article className='hobby'>
+          <img src={climbing} alt="Doctor Hicks climbing in the Tetons" width='200px' />
+          <h6>
+            Dr. Hicks ascending Cube Point, overlooking Jenny Lake near Jackson Hole, Wyoming.
+          </h6>
+        </article>
       </section>
 
     </main>
