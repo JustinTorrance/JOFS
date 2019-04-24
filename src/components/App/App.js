@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className='header-section'>
-          <NavLink to='/' className='nav'>Home</NavLink>
+          <NavLink to='/' exact activeClassName='active' className='nav'>Home</NavLink>
           <NavLink to='/meet' className='nav'>Meet Dr. Hicks</NavLink>
           <NavLink to='/procedures' className='nav'>Procedures and Services</NavLink>
           <NavLink to='/patient' className='nav'>Patient Care</NavLink>
@@ -17,7 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
         </Switch>
-        <p>Jackson Oral and Facial Surgery &copy; 2019</p>
+        <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
       </div>
     );
   }

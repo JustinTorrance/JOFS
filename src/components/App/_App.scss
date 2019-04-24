@@ -8,7 +8,6 @@
   font-weight: 300;
   height: 40px;
   align-items: center;
-    
 }
 
 .nav {
@@ -19,4 +18,14 @@
   &:hover {
     border-color: white;
   }
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+.copyright {
+  color: #263E76;
+  text-align: center;
+  margin: 20px 0;
 }
