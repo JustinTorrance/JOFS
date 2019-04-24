@@ -27,3 +27,47 @@
   font-size: 2.5rem;
   margin-top: 10px;
 }
+
+.call-visit {
+  text-align: center;
+  color: #263E76;
+  margin: 45px;
+  font-size: 2rem;
+}
+
+.home-contact-section {
+  background-color: #263E76;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.home-contact-info {
+
+}
+
+.map-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-map-div {
+  background-color: #5EC0F9;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover{
+    cursor: pointer;
+    background-color: #2E65A7;
+    transition: 200ms
+  }
+}
+
+.view-map {
+  font-size: 1.4rem;
+}

@@ -10,24 +10,26 @@ const Home = () => {
           <h3 className='home-doctor-name'>Dr. Riley J. Hicks</h3>
         </div>
       </section>
-      <section className="contact-section">
+      <section className="home-bottom">
         <article>
-          <h3>Call or Visit Us Today</h3>
+          <h3 className='call-visit'>Call or Visit Us Today</h3>
         </article>
-        <article>
-          <p>Jackson Oral and Facial Surgery</p>
-          <p>120 Aspen Ln #100</p>
-          <p>Jackson, WY 80125</p>
-          <p>Phone: (208) 555 - 1234</p>
-          <p>Fax: (208) 555 - 1235</p>
-          <p>Hours: Mon - Fri: 8am - 5pm</p>
-        </article>
-        <article className='map-article'>
-          <img src={map} alt='Map of the office location' width='400px'/>
-          <div className='view-map-div'>
-            <p>View Map</p>
-          </div>
-        </article>
+        <section className='home-contact-section'>
+          <article className='home-contact-info'>
+            <p>Jackson Oral and Facial Surgery</p>
+            <p>120 Aspen Ln #100</p>
+            <p>Jackson, WY 80125</p>
+            <p>Phone: (208) 555 - 1234</p>
+            <p>Fax: (208) 555 - 1235</p>
+            <p>Hours: Mon - Fri: 8am - 5pm</p>
+          </article>
+          <article className='map-article'>
+            <img src={map} alt='Map of the office location' width='400px'/>
+            <div className='view-map-div'>
+              <p className='view-map'>View Map</p>
+            </div>
+          </article>
+        </section>
       </section>
     </main>
   )
