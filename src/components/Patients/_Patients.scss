@@ -1,0 +1,43 @@
+.patient-care-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 1.02rem;
+    line-height: 150%;
+    padding: 0 25px;
+  }
+}
+
+.sub-header {
+  color: #263e76;
+  font-weight: 600;
+}
+
+.card-header {
+  color: #263e76;
+}
+
+.card {
+  padding: 10px 0 15px 0;
+  width: 650px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  &:hover {
+    box-shadow: 0 16px 20px -12.125px rgba(0,0,0,0.3);
+  };
+}
+
+.anesthesia-care {
+  margin-left: 40px;
+  li {
+    font-size: 1.02rem;
+    line-height: 150%;
+    padding-right: 25px;
+  }
+}
+
+.tetons {
+  width: 100%;
+}

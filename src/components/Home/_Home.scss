@@ -2,19 +2,19 @@
   font-family: 'Lato', sans-serif;
 }
 
+.office-img-container {
+  position: relative;
+}
+
 .office-img {
-  background-image: url('assets/office.jpg');
-  background-size: 135%;
-  height: 620px;
-  background-position: right bottom 10%;
-  background-repeat: none;
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .home-name-div {
   color: #263E76;
-  margin-top: 20px;
+  position: absolute;
+  margin-top: -44%;
+  margin-left: 25%;
 }
 
 .home-office-name {

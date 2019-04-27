@@ -3,6 +3,8 @@ import { NavLink, Route, Switch } from 'react-router-dom';
 import Home from '../Home/Home';
 import MeetDoctor from '../MeetDoctor/MeetDoctor';
 import Patients from '../Patients/Patients'
+import Contact from '../Contact/Contact'
+import Procedures from '../Procedures/Procedures'
 
 class App extends Component {
   render() {
@@ -20,6 +22,8 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route path='/meet' component={MeetDoctor} />
           <Route path='/patients' component={Patients} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/procedures' component={Procedures} />
         </Switch>
         <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
       </div>
