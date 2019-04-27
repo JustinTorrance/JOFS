@@ -4,3 +4,26 @@
   align-items: center;
   justify-content: center;
 }
+
+.sub-header {
+  color: #263e76;
+  font-weight: 800;
+}
+
+.card-header {
+  color: #263e76;
+}
+
+.card {
+  padding: 15px;
+  width: 900px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  &:hover {
+    box-shadow: 0 16px 20px -12.125px rgba(0,0,0,0.3);
+  };
+}
+
+.anesthesia-care {
+  margin-left: 20px;
+}
