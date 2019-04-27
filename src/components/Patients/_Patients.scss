@@ -13,10 +13,12 @@
 .sub-header {
   color: #263e76;
   font-weight: 600;
+  padding: 0 25px 10px 25px;
 }
 
 .card-header {
   color: #263e76;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -29,8 +31,8 @@
   };
 }
 
-.anesthesia-care {
-  margin-left: 40px;
+.patient-care-list {
+  margin-left: 45px;
   li {
     font-size: 1.02rem;
     line-height: 150%;
