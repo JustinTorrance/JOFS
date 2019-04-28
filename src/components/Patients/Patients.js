@@ -385,41 +385,87 @@
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
-            Resting and eating nutritious foods are essential for healing to begin and progress normally. High calorie and high protein foods are ideal for the first few days. Drink extra non-carbonated fluids to avoid dehydration, especially the day of your surgery. Avoid hot foods while still numb from the anesthesia. You may be on a liquid diet because your jaws are wired together. If so, you will need 4 -6 meals per day to meet your nutritional requirements. Liquid supplements like Ensure are an extra help. If your jaws are not wired together you should eat a soft diet, nothing firmer than scrambled eggs or pasta typefoods for the next four weeks.
+            Resting and eating nutritious foods is essential for healing to begin and progress normally. 
           </p>
+          <ul className='patient-care-list'>
+            <li>Soft foods are best because they won’t injure the surgical site. </li>
+            <li>Keep food away from the surgical site by chewing on the opposite side of your mouth as the surgical site. </li>
+            <li>High calorie and high protein foods are ideal for the first few days. </li>
+            <li>Drink extra non-carbonated fluids to avoid dehydration, especially the day of surgery.</li>
+            <li>Do NOT use a straw</li>
+            <li>Avoid hot foods while still numb from the anesthesia to avoid burns.</li>
+          </ul>
+          <br/>
+          <h4 className='sub-header'>If your jaw is wired together: </h4>            
+          <ul className='patient-care-list'>
+            <li>You will be on a liquid diet. </li>
+            <li>You will need 4-6 meals per day to meet your nutritional requirements.</li>
+            <li>Liquid supplements, like Ensure, are an extra help.</li>
+          </ul>
+          <br/>
+          <h4 className='sub-header'>If your jaw is NOT wired together: </h4>            
+          <ul className='patient-care-list'>
+            <li>You will eat a soft diet for 4 weeks. </li>
+            <li>Scrambled eggs and pasta type foods are the firmest foods you should eat.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Pain Control: </h4>
           <p>
-            Pain control is best obtained and maintained when you use your pain medicines prior to the local anesthesia wearing off. It is wise to eat some food prior to the taking this medicine as well. Take your medicine on a scheduled basis the first day-every four to six hours. You should realize that no pain medicine removes your pain sensation completely but lessens it so as to be tolerable. You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. Do not take extra Tylenol; it is already mixed with your narcotic pain medication. If adequate pain control isn’t obtained please call us.
+            It is important to understand that no pain medicine removes your pain sensation completely. The goal is to lessen your pain to a tolerable level.  You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. If you cannot obtain adequate pain control, please call us.
           </p>
           <br/>
-          <h4 className='sub-header'>Pain Control: </h4>
+          <ul className='patient-care-list'>
+            <li>Use your pain medicines prior to the local anesthesia wearing off </li>
+            <li>Eat some food prior to taking your pain medicine</li>
+            <li>On the first day take your pain medicine every 4-6 hours</li>
+            <li>Do NOT take extra Tylenol. It is already mixed in with your narcotic pain medication</li>
+          </ul>
+          <br/>
+          <h4 className='sub-header'>Swelling: </h4>
           <p>
-            Pain control is best obtained and maintained when you use your pain medicines prior to the local anesthesia wearing off. It is wise to eat some food prior to the taking this medicine. Take your medicine on a scheduled basis the first day-every four to six hours. You should realize that no pain medicine removes your pain sensation completely but lessens it so as to be tolerable. You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. Do not take extra Tylenol, it is already mixed with your narcotic pain medication. If adequate pain control is not obtained please call us. Do not take more pain medication than directed.
+            Swelling will be proportionate to your surgery. The more extensive your surgery, the more swelling you will experience. Swelling will be at its greatest 3 to 4 days after surgery.
           </p>
           <br/>
           <p>
-            If you are prescribed an antibiotic use it as directed until it is gone.
+            To minimize swelling: Keep your head elevated while lying down or sleeping (head above heart).  
+            Sutures, if used, will usually dissolve after 7-10 days.
           </p>
           <br/>
           <h4 className='sub-header'>Oral and Facial Hygiene: </h4>
           <p>
-            Oral hygiene is essential to help avoid infections. If your teeth are wired together you can only clean the outside of your teeth. Brushing twice per day is essential and should include teeth and wires around the teeth too. Water rinses can be used after each meal. Use your antibiotic mouth wash twice per day after brushing. Do not use ultrasonic or powered brushes for two weeks.
+            Oral hygiene is essential to help avoid infections. 
           </p>
+          <ul className='patient-care-list'>
+            <li>If your teeth are wired together you can only clean the outside of your teeth. </li>
+            <li>Brushing twice per day is essential and should include teeth and wires around the teeth too. </li>
+            <li>Water rinses can be used after each meal. </li>
+            <li>Use your antibiotic mouth wash twice per day after brushing. </li>
+            <li>Do NOT use ultrasonic or powered brushes for two weeks.</li>
+          </ul>
           <br/>
           <p>
-            If you have facial lacerations or skin incisions they should be cleaned twice daily with a Q-tip dipped in Hydrogen Peroxide. Do this to remove any clotted or dried blood. Then cover the wound with a thin layer of antibiotic ointment. This cleaning practice should be done for the first week and then discontinue it. Thoseplaced on the skin will need to be removed 5-6 days after your surgery.
+            If you have facial lacerations or skin incisions:
           </p>
-          <br/>
-          <h4 className='sub-header'>Swelling: </h4>
-          <p>
-            Keep your head elevated while laying down or sleeping (Head above Heart). This will help minimize your swelling from the surgery. Swelling will be experienced to the magnitude of your surgery, bigger trauma=bigger surgery=bigger swelling. It will be at its greatest on day 3-4 after surgery.
-          </p>
+          <ul className='patient-care-list'>
+            <li>Clean them twice daily with a Q-tip dipped in Hydrogen Peroxide. </li>
+            <li>Do this to remove any clotted or dried blood. </li>
+            <li>Then cover the wound with a thin layer of antibiotic ointment. </li>
+            <li>Do this for only one week, then discontinue the cleaning practice.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Activity: </h4>
           <p>
-            You must be cautious to avoid further injury to your jaws and face. Bumps from others may cause movement of your fractured bones and then require further surgery. You may return to work after your strength is adequate and you are not taking narcotic pain medicines. If you desire to exercise, a stationary bike can be used after one week and running or jogging after three weeks. No contact sports should be playedfor three months.
+            You must be cautious to avoid further injury to your jaws and face. Bumps from others may cause movement of your fractured bones and then require further surgery. You may return to work after your strength is adequate and you are not taking narcotic pain medicines. 
           </p>
+          <br/>
+          <p>
+            If you desire to exercise: 
+          </p>
+          <ul className='patient-care-list'>
+            <li>You may use a stationary bike after one week.</li>
+            <li>You may run or jog after three weeks. </li>
+            <li>No contact sports should be played for three months.</li>
+          </ul>
         </ExpansionPanel>
 
         <ExpansionPanel className='card' >
