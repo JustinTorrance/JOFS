@@ -122,7 +122,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing After Tooth Extractions</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Tooth Extractions</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -165,9 +165,14 @@
           </p>
           <br/>
           <h4 className='sub-header'>Cleaning Your Mouth: </h4>
-          <p>
-            Oral hygiene may begin the morning after your surgery. Gently clean your teeth with a soft bristled toothbrush and toothpaste. Do not brush the surgical site, only the teeth next to it. You should be very gentle but thorough on the teeth next to the surgical site. Avoid ultrasonic or power brushes for the first week after surgery.
-          </p>
+          <ul className='patient-care-list'>
+            <li>Begin oral hygiene the day after surgery.</li>
+            <li>Do NOT brush the surgical site. Only brush the teeth next to it.</li>
+            <li>If surgical site is next to teeth, gently brush teeth with a soft bristled brush. </li>
+            <li>For the first week, do NOT use ultrasonic or powered brushes.</li>
+            <li>For ten days, do NOT use mouthwash that contains high amounts of alcohol.</li>
+            <li>Do NOT use hydrogen peroxide as a mouth rinse.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Antibiotic Mouth Rinse: </h4>
           <p>
@@ -177,7 +182,7 @@
         
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Direction for Optimal Healing After Implant Placement</h3>
+            <h3 className='card-header'>Direction for Optimal Healing after Implant Placement</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -222,7 +227,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing After Sinus Surgery</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Sinus Surgery</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -240,22 +245,25 @@
           <h4 className='sub-header'>Cautions: </h4>
           <ul className='patient-care-list'>
             <li>
-              Do not blow your nose for 2-3 weeks
+              Do NOT blow your nose for 2-3 weeks
             </li>
             <li>
-              Do not try to suppress a sneeze. If you feel a sneeze coming on, open your mouth and let it go.
+              Do NOT try to suppress a sneeze. If you feel a sneeze coming on, open your mouth and let it go.
             </li>
             <li>
-              Do not use a straw, the sucking action can open the surgical site.
+              Do NOT use a straw, the sucking action can open the surgical site.
             </li>
             <li>
-              Do not rinse your mouth vigorously for the next two weeks.
+              Do NOT rinse your mouth vigorously for the next two weeks.
             </li>
             <li>
               Never use Hydrogen Peroxide as an oral rinse.
             </li>
             <li>
               Smoking will decrease your healing ability.
+            </li>
+            <li>
+              Do NOT use mouthwashes like Listerine or Scope.
             </li>
           </ul>
           <br/>
@@ -315,6 +323,7 @@
           <h4 className='sub-header'>Cleaning Your Mouth: </h4>
           <ul className='patient-care-list'>
             <li>Begin oral hygiene the day after surgery.</li>
+            <li>Do NOT brush the surgical site. Only brush the teeth next to it.</li>
             <li>If surgical site is next to teeth, gently brush teeth with a soft bristled brush. </li>
             <li>For the first week, do NOT use ultrasonic or powered brushes.</li>
             <li>For ten days, do NOT use mouthwash that contains high amounts of alcohol.</li>
@@ -324,7 +333,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Optimal Healing after Face/Skin Biopsy</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Face/Skin Biopsy</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -381,7 +390,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing After Jaw or Facial Fractures</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Jaw or Facial Fractures</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -474,36 +483,61 @@
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
-            Resting and eating nutritious foods are essential for healing to begin and progress normally. Soft foods are best to avoid injury to the surgical site. Keep food away from the surgical site. High calorie and high protein foods are ideal for the first few days. Drink extra non-carbonated fluids to avoid dehydration, especially the day of your surgery. Avoid hot foods while still numb from the anesthesia or surgery.
+            You will be eating a <span className='bold'>non-chew</span> diet. No chewing is essential for 4-6 weeks.
           </p>
           <br/>
           <p>
-            You will be eating a non-chew diet. No chewing is essential for 4-6 weeks.
+            Resting and eating nutritious foods is essential for healing to begin and progress normally. 
           </p>
+          <ul className='patient-care-list'>
+            <li>Soft foods are best because they won’t injure the surgical site. </li>
+            <li>Keep food away from the surgical site by chewing on the opposite side of your mouth as the surgical site. </li>
+            <li>High calorie and high protein foods are ideal for the first few days. </li>
+            <li>Drink extra non-carbonated fluids to avoid dehydration, especially the day of surgery.</li>
+            <li>Do NOT use a straw</li>
+            <li>Avoid hot foods while still numb from the anesthesia to avoid burns.</li>
+          </ul>
           <br/>
-          <p>
-            If your jaws are wired together you will be eating a liquid diet and will need 4-6 meals per day to meet your nutrition needs.
-          </p>
+          <h4 className='sub-header'>If your jaw is wired together: </h4>            
+          <ul className='patient-care-list'>
+            <li>You will be on a liquid diet. </li>
+            <li>You will need 4-6 meals per day to meet your nutritional requirements.</li>
+            <li>Liquid supplements, like Ensure, are an extra help.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Bleeding: </h4>
           <p>
-            Blood will ooze from the oral incisions for 1-2 days following surgery. Some bleeding may also come from the nose if upper jaw surgery was performed. Use your nasal spray (Afrin) for nose bleeding. A gauze dressing may be helpful under the nose as well. After several days some tea colored fluid will be draining from the sinuses and come out the nose.
+            Blood will ooze from the oral incision for one to two days following surgery. Some bleeding may also come from the nose if upper jaw surgery was performed. Use your nasal spray (Afrin) for nose bleeding. A gauze dressing may be helpful under the nose as well. After several days, some teas colored fluid will drain from the sinuses and come out the nose. 
           </p>
           <br/>
           <h4 className='sub-header'>Swelling: </h4>
           <p>
-            This is a natural process after major surgery and will be related to the extent of surgery. Keep your head above heart level when sleeping or reclining. Maximal swelling will be on the 3-4 day. Ice packs or heat packs, as you desire, may be used.
+            Swelling is a natural process after major surgery and will be proportionate to your surgery. The more extensive your surgery, the more swelling you will experience. Swelling will be at its greatest 3 to 4 days after surgery.
+          </p>
+          <br/>
+          <p>
+            To minimize swelling, keep your head elevated while lying down or sleeping (head above heart). Ice packs or heat packs may be used as desired.
           </p>
           <br/>
           <h4 className='sub-header'>Hygiene: </h4>
-          <p>
-            Oral hygiene done well can reduce risk of infection. Clean your teeth, braces and stent carefully and thoroughly twice daily. Rinse your mouth with warm water after each meal. Use your antibiotic mouth wash (Peridex) twice daily after brushing. Never use Hydrogen Peroxide or pressure water cleaning instruments.
-          </p>
+          <ul className='patient-care-list'>
+            <li>Clean your teeth braces and stent carefully and thoroughly twice daily. </li>
+            <li>Rinse your mouth with warm water after each meal. </li>
+            <li>Use your antibiotic mouth wash (Peridex) twice daily after brushing.</li>
+            <li>Do NOT use hydrogen peroxide or pressure water cleaning instruments.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Pain Control: </h4>
           <p>
-            Pain control is best obtained and maintained when you use your pain medicines on a regular basis for the first two or three days. It is wise to eat some food prior to the taking this medicine. Take your medicine on a scheduled basis the first few days-every four to six hours. You should realize that no pain medicine removes your pain sensation completely but lessens it so as to be tolerable. You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. Do not take extra Tylenol; it is already mixed with your narcotic pain medication. If adequate pain control isn’t obtained please call us.
+            It is important to understand that no pain medicine removes your pain sensation completely. The goal is to lessen your pain to a tolerable level.  You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. If you cannot obtain adequate pain control, please call us.
           </p>
+          <br/>
+          <ul className='patient-care-list'>
+            <li>Use your pain medicines prior to the local anesthesia wearing off </li>
+            <li>Eat some food prior to taking your pain medicine</li>
+            <li>On the first day take your pain medicine every 4-6 hours</li>
+            <li>Do NOT take extra Tylenol. It is already mixed in with your narcotic pain medication</li>
+          </ul>
           <br/>
           <p>
             If you are prescribed an antibiotic use it as directed until it is gone.
@@ -511,27 +545,56 @@
           <br/>
           <h4 className='sub-header'>Activity: </h4>
           <p>
-            You must be cautious to avoid injury to your jaws and face. Bumps from others may cause movement at the surgery site and require further surgery. You may return to work after your strength is adequate and you are not taking narcotic pain medicines. If you desire to exercise, a stationary bike can be used after one week and running or jogging after three weeks. No contact sports should be played for three months.
+            You must be cautious to avoid further injury to your jaws and face. Bumps from others may cause movement of your fractured bones and then require further surgery. You may return to work after your strength is adequate and you are not taking narcotic pain medicines. 
           </p>
+          <br/>
+          <p>
+            If you desire to exercise: 
+          </p>
+          <ul className='patient-care-list'>
+            <li>You may use a stationary bike after one week.</li>
+            <li>You may run or jog after three weeks. </li>
+            <li>No contact sports should be played for three months.</li>
+          </ul>
         </ExpansionPanel>
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing After Jaw Joint Arthrocentisis</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Jaw Joint Arthrocentisis</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
-            Resting and eating nutritious foods are essential for healing to begin and progress normally. Soft foods are best for the first 4 weeks, nothing harder than pasta consistency. Drink extra amounts of non-carbonated fluids to avoid dehydration, especially the day of your surgery.
+            Resting and eating nutritious foods is essential for healing to begin and progress normally. 
           </p>
+          <ul className='patient-care-list'>
+            <li>Soft foods are best because they won’t injure the surgical site. </li>
+            <li>Keep food away from the surgical site by chewing on the opposite side of your mouth as the surgical site. </li>
+            <li>High calorie and high protein foods are ideal for the first few days. </li>
+            <li>Drink extra non-carbonated fluids to avoid dehydration, especially the day of surgery.</li>
+            <li>Do NOT use a straw</li>
+            <li>Avoid hot foods while still numb from the anesthesia to avoid burns.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Pain Control: </h4>
           <p>
-            Pain control is best obtained and maintained when you use your pain medicines prior to the local anesthesia wearing off. It is wise to eat some food prior to the taking this medicine as well. Take your medicine on a scheduled basis the first day-every four to six hours. You should realize that no pain medicine removes your pain sensation completely but lessens it so as to be tolerable. Do not take extra Tylenol, it is already mixed with your narcotic pain medication.Part of your pain control strategy is taking an anti-inflammatory drug. You should continue to take this as prescribed and not stop until directed otherwise.If adequate pain control isn’t obtained please call us.
+            It is important to understand that no pain medicine removes your pain sensation completely. The goal is to lessen your pain to a tolerable level.  You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. If you cannot obtain adequate pain control, please call us.
           </p>
+          <br/>
+          <ul className='patient-care-list'>
+            <li>Use your pain medicines prior to the local anesthesia wearing off </li>
+            <li>Eat some food prior to taking your pain medicine</li>
+            <li>On the first day take your pain medicine every 4-6 hours</li>
+            <li>Do NOT take extra Tylenol. It is already mixed in with your narcotic pain medication</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Swelling: </h4>
           <p>
-            Some swelling will be present after this procedure. It will be localized to the cheek and in front of the ear, directly over the jaw joint. This will resolve readily and application of a heat pack may help speed the resolution of the swelling.
+          Swelling will be proportionate to your surgery. The more extensive your surgery, the more swelling you will experience. Swelling will be at its greatest 3 to 4 days after surgery.
+          </p>
+          <br/>
+          <p>
+            To minimize swelling: Keep your head elevated while lying down or sleeping (head above heart).  
+            Sutures, if used, will usually dissolve after 7-10 days.
           </p>
           <br/>
           <h4 className='sub-header'>Eye Precautions: </h4>
@@ -547,36 +610,76 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing After Bone or Soft Tissue Grafting</h3>
+            <h3 className='card-header'>Directions for Optimal Healing after Bone or Soft Tissue Grafting</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
-            Resting and getting nutritious foods are essential for healing to begin and progressing normally. Soft foods are best to avoid injury to the surgical site. Keep food away from the surgical site. High calorie and high protein foods are ideal for the first few days. Drink extra non-carbonated fluids to avoid dehydration, especially the day of your surgery. Do not use a straw. Avoid hot foods while still numb from the anesthesia.
+            Resting and eating nutritious foods is essential for healing to begin and progress normally. 
           </p>
+          <ul className='patient-care-list'>
+            <li>Soft foods are best because they won’t injure the surgical site. </li>
+            <li>Keep food away from the surgical site by chewing on the opposite side of your mouth as the surgical site. </li>
+            <li>High calorie and high protein foods are ideal for the first few days. </li>
+            <li>Drink extra non-carbonated fluids to avoid dehydration, especially the day of surgery.</li>
+            <li>Do NOT use a straw</li>
+            <li>Avoid hot foods while still numb from the anesthesia to avoid burns.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Pain Control: </h4>
           <p>
-            Pain control is best obtained and maintained when you use your pain medicines prior to the local anesthesia wearing off. It is wise to eat some food prior to the taking this medicine as well. Take your medicine on a scheduled basis the first day-every four to six hours. You should realize that no pain medicine removes your pain sensation completely, but it should lessen it so it is tolerable. You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. Do not take extra Tylenol (acetaminophen), it is already a part of your narcotic pain medication. If adequate pain control is not obtained please call us. Do not take more pain medication than directed.
+            It is important to understand that no pain medicine removes your pain sensation completely. The goal is to lessen your pain to a tolerable level.  You may also use Ibuprofen as a second pain medicine. Follow the Ibuprofen label directions. If you cannot obtain adequate pain control, please call us.
           </p>
           <br/>
+          <ul className='patient-care-list'>
+            <li>Use your pain medicines prior to the local anesthesia wearing off </li>
+            <li>Eat some food prior to taking your pain medicine</li>
+            <li>On the first day take your pain medicine every 4-6 hours</li>
+            <li>Do NOT take extra Tylenol. It is already mixed in with your narcotic pain medication</li>
+          </ul>
+          <br/>
           <h4 className='sub-header'>Cleaning Your Mouth: </h4>
-          <p>
-            Oral hygiene may begin the morning after your surgery. Gently clean your teeth with a soft bristled tooth brush and tooth paste. Do not brush the surgical site, only the teeth next to it. You should be very gentle but thorough on the teeth next to the surgical site. Avoid ultrasonic or power brushes for the first week after surgery.
-          </p>
+          <ul className='patient-care-list'>
+            <li>Begin oral hygiene the day after surgery.</li>
+            <li>Do NOT brush the surgical site. Only brush the teeth next to it.</li>
+            <li>If surgical site is next to teeth, gently brush teeth with a soft bristled brush. </li>
+            <li>For the first week, do NOT use ultrasonic or powered brushes.</li>
+            <li>For ten days, do NOT use mouthwash that contains high amounts of alcohol.</li>
+            <li>Do NOT use hydrogen peroxide as a mouth rinse.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Antibiotic Mouth Rinse: </h4>
           <p>
-            If you are prescribed Chlorhexidine Gluconate, (Peridex, PerioRx etc), you should begin using it the morning after surgery. After gently cleaning your teeth, very gently rinse it around your mouth, being sure to cover the surgery site, then spit it out carefully. This will need to be done each morning and at bedtime for 7-10 days. Never rinse your mouth with Hydrogen Peroxide.
+            If you are prescribed Chlorohexidine Gluconate (commonly called Peridex), you should: 
           </p>
+          <ul className='patient-care-list'>
+            <li>Begin using it the morning after surgery after gently cleaning your teeth. </li>
+            <li>Very gently rinse it around your mouth and spit it out carefully. </li>
+            <li>Do this each morning and at bedtime for 7 to 10 days. </li>
+            <li>Never rinse your mouth with hydrogen peroxide.</li>
+          </ul>
           <br/>
           <h4 className='sub-header'>Cautions: </h4>
           <ul className='patient-care-list'>
             <li>
-              Keep your finger out of your mouth. There is no need to be touching or feeling the surgical site. Keep your tongue away as well. The tension and pressure from fingers and /or the tongue can disrupt the healing process and may affect the desired outcome.
+              Do NOT blow your nose for 2-3 weeks
             </li>
-            <br/>
             <li>
-              Never rinse your mouth with Hydrogen Peroxide and it is best to avoid mouthwashes (Listerine ,Scope etc). These will damage the healing tissue and may cause increased pain.
+              Do NOT try to suppress a sneeze. If you feel a sneeze coming on, open your mouth and let it go.
+            </li>
+            <li>
+              Do NOT use a straw, the sucking action can open the surgical site.
+            </li>
+            <li>
+              Do NOT rinse your mouth vigorously for the next two weeks.
+            </li>
+            <li>
+              Never use Hydrogen Peroxide as an oral rinse.
+            </li>
+            <li>
+              Smoking will decrease your healing ability.
+            </li>
+            <li>
+              Do NOT use mouthwashes like Listerine or Scope.
             </li>
           </ul>
         </ExpansionPanel>
