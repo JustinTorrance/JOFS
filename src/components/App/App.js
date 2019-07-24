@@ -5,6 +5,7 @@ import MeetDoctor from '../MeetDoctor/MeetDoctor';
 import Patients from '../Patients/Patients'
 import Contact from '../Contact/Contact'
 import Procedures from '../Procedures/Procedures'
+import Doctors from '../Doctors/Doctors'
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
           <Route path='/patients' component={Patients} />
           <Route path='/contact' component={Contact} />
           <Route path='/procedures' component={Procedures} />
+          <Route path='/doctors' component={Doctors} />
         </Switch>
         <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
       </div>

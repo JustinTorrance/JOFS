@@ -7,6 +7,7 @@ const Contact = () => {
     <div>
       <h1 className='patient-care-header'>Contact Us</h1>
       <img src={tetons2} alt="The Tetons" className='tetons'/>
+      
     </div>
   )
 }
