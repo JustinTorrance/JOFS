@@ -12,7 +12,7 @@
         <h1 className='patient-care-header'>Patient Care Information</h1>
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Preparing for Intravenous Anesthesia</h3>
+            <h3 className='card-header'>Before Intravenous Anesthesia</h3>
           </ExpansionPanelSummary>
           <p>
             Patient’s who desire to receive IV anesthesia (be asleep) for their surgery must come 
@@ -122,7 +122,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Tooth Extractions</h3>
+            <h3 className='card-header'>Tooth Extractions</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -227,7 +227,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Sinus Surgery</h3>
+            <h3 className='card-header'>Sinus Surgery</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -288,7 +288,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Oral Biopsy</h3>
+            <h3 className='card-header'>Oral Biopsy</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -333,7 +333,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Face/Skin Biopsy</h3>
+            <h3 className='card-header'>Face/Skin Biopsy</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -390,7 +390,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Jaw or Facial Fractures</h3>
+            <h3 className='card-header'>Jaw or Facial Fractures</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -479,7 +479,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Orthognathic Surgery</h3>
+            <h3 className='card-header'>Orthognathic Surgery</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -560,7 +560,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Jaw Joint Arthrocentisis</h3>
+            <h3 className='card-header'>Jaw Joint Arthrocentisis</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
@@ -610,7 +610,7 @@
 
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Directions for Optimal Healing after Bone or Soft Tissue Grafting</h3>
+            <h3 className='card-header'>Bone or Soft Tissue Grafting</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>

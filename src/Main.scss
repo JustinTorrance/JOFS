@@ -3,10 +3,11 @@
 @import './components/App/App';
 @import './components/MeetDoctor/MeetDoctor';
 @import './components/Patients/Patients';
+@import './components/Procedures/Procedures';
+@import './components/Doctors/Doctors.scss';
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
