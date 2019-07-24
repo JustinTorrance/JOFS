@@ -25,7 +25,7 @@ class App extends Component {
           <Route path='/patients' component={Patients} />
           <Route path='/contact' component={Contact} />
           <Route path='/procedures' component={Procedures} />
-          <Route path='/referringdoctors' component={Doctors} />
+          <Route path='/doctors' component={Doctors} />
         </Switch>
         <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
       </div>
