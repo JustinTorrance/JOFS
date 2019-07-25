@@ -201,6 +201,82 @@ const Procedures = () => {
             <a href='http://www.aaid-implant.org/about-dental-implants/what-are-dental-implants/'>The American Academy of Implant Dentistry</a>
           </p>
         </ExpansionPanel>
+
+        <ExpansionPanel className='card' >
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <h3 className='card-header'>Corrective Jaw Surgery (Orthognathic Surgery)</h3>
+          </ExpansionPanelSummary>
+          <br/>
+          <h4 className='sub-header'>What is Corrective Jaw Surgery? </h4>
+          <p>
+            Corrective Jaw Surgery is also known as orthognathic surgery.  Orthognathic comes from the Greek words “ortho” which means “straight” and “gnathic” which means “jaws”.  Therefore, orthognathic surgery corrects the misalignment of jaws and teeth (i.e. an overbite, under bite, or open bite). 
+          </p>
+          <br/>
+          <p>
+            While orthodontics can straighten teeth, jaw surgery is required to reposition misaligned jaws. Surgery can improve chewing, speaking and breathing. Patients also gain great satisfaction and confidence from improved appearance due to the correct positioning of the facial and jaw bones.
+          </p>
+          <br />
+          <h4 className='sub-header'>Do I need corrective jaw surgery? </h4>
+          <p>
+            Jaw misalignment can be caused by genetics, birth defects, or injury. In some cases, the upper and lower jawbones grow at different rates causing the teeth and jaws to not line up properly. 
+          </p>
+          <br/>
+          <p>
+            If you experience any of the following conditions, you may benefit from corrective jaw surgery:
+          </p>
+          <ul className='patient-care-list'>
+            <li>Difficulty chewing, or biting food</li>
+            <li>Difficulty swallowing</li>
+            <li>Chronic jaw or jaw joint (TMJ) pain and headache</li>
+            <li>Excessive wear of the teeth</li>
+            <li>Open bite (space between the upper and lower teeth when the mouth is closed)</li>
+            <li>Unbalanced facial appearance from the front, or side</li>
+            <li>Facial injury</li>
+            <li>Birth defects</li>
+            <li>Receding lower jaw and chin</li>
+            <li>Protruding jaw</li>
+            <li>Inability to make the lips meet without straining</li>
+            <li>Chronic mouth breathing</li>
+            <li>Sleep apnea (breathing problems when sleeping, including snoring)</li>
+          </ul>
+          <br/>
+          <p>
+            Dr. Hicks will work with you to determine whether you are a candidate for corrective jaw surgery.
+          </p>
+          <br />
+          <p>
+            At our office we can perform a full range of orthognathic procedures including:
+          </p>
+          <ul className='patient-care-list'>   
+            <li>Single and Double Jaw Surgery to correct undergrowth or overgrowths</li>
+            <li>Closure of Anterior Open Bites</li>
+            <li>Surgical expansion or narrowing of jaw abnormalities</li>
+            <li>Correction of Facial Asymmetries</li>
+            <li>Cosmetic and Functional Chin Enhancements</li>
+          </ul>
+          <br />
+          <p>
+            For more information on Corrective Jaw Surgery, visit <a href='http://myoms.org/procedures/corrective-jaw-surgery'>myoms.org</a> to watch a short video.
+          </p>
+        </ExpansionPanel>
+
+        <ExpansionPanel className='card' >
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <h3 className='card-header'>Tooth Extraction</h3>
+          </ExpansionPanelSummary>
+          <p>
+            One of the most common procedures performed at our office is tooth extraction, or removal. Most often patients need teeth removed for these reasons:
+          </p>
+          <ul className='patient-care-list'>
+            <li>Removal of diseased teeth</li>
+            <li>Surgical extraction of impacted wisdom teeth (make this a link to the wisdom teeth page)</li>
+            <li>Exposure of impacted canine teeth for orthodontic therapy</li>
+            <li>Preparing jaws for dentures</li>
+          </ul>
+        </ExpansionPanel>
+
+
+
     </section>
   )
 }
