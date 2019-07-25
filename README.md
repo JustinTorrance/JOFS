@@ -6,7 +6,8 @@ To view this site, visit www.JacksonOFS.com.
 
 ## Author
 
-Justin Torrance
+Justin Torrance  
+https://www.linkedin.com/in/justintorrance/
 
 ## Tech Stack
 
