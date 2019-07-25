@@ -342,8 +342,40 @@ const Procedures = () => {
           </p>
           <br />
           <p>
-            For more information on Obstructive Sleep Apnea, visit  
-            <a href='http://www.aaid-implant.org/about-dental-implants/what-are-dental-implants/'> myoms.org</a>.
+            For more information on Obstructive Sleep Apnea, visit <a href='http://www.aaid-implant.org/about-dental-implants/what-are-dental-implants/'>myoms.org</a>.
+          </p>
+        </ExpansionPanel>
+
+        <ExpansionPanel className='card' >
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <h3 className='card-header'>Facial Injury (Trauma)</h3>
+          </ExpansionPanelSummary>
+          <p>
+            Oral and Maxillofacial surgeons are particularly trained to repair injuries to the mouth face and jaw.  Most of these injuries are caused by sports accidents, motor vehicle accidents, on-the-job injuries, or home accidents. Dr. Hicks treats a variety of trauma cases including:
+          </p>
+          <ul>
+            <li>Fractures of the upper jaw, lower jaw, palate, cheekbones, or eye sockets</li>
+            <li>Repositioning and stabilization of displaced teeth</li>
+            <li>Repair of oral or facial lacerations (cuts)</li>
+            <li>Scar Revision</li>
+          </ul>
+          <br/>
+          <p>
+            In the event that a facial injury requires a trip to the emergency room, the injured athlete, or his parent or coach should ask that an Oral and Maxillofacial Surgeon be called for consultation. With their background and training, Oral and Maxillofacial Surgeons are the specialists most qualified to deal with these kinds of injuries. In some cases they may even detect a “hidden” injury that may otherwise go unnoticed.
+          </p>
+          <br />
+          <h4 className='sub-header'>How are facial fractures treated? </h4>
+          <p>
+            Oral and Maxillofacial Surgeons treat facial fractures much in the same way an orthopedic surgeon treats a broken arm or leg. The broken parts must be lined up (reduced) and held in position long enough for them to heal. 
+          </p>
+          <br/>
+          <p>
+            Dr. Hicks will choose the treatment option that will help you return to your normal activities as soon as possible. If stitches, or sutures, are needed, your Oral and Maxillofacial Surgeon will place them precisely and carefully to avoid scaring.
+          </p>
+          <br/>
+          <h4 className='sub-header'>Why facial injuries are serious</h4>
+          <p>
+            Every facial injury affects an area of the body that is critical to breathing, speaking, eating, and seeing. Not every facial injury requires hospitalization, but as rule of thumb, facial injuries should not be treated lightly. Remember to wear the correct protective equipment when you play sports and recreate. 
           </p>
         </ExpansionPanel>
 
