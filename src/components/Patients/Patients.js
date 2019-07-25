@@ -8,8 +8,8 @@
   
     return (
       <section className='patient-care-section'>
-        <img src={tetons} alt='Tetons' className='tetons' />
         <h1 className='patient-care-header'>Patient Care Information</h1>
+        <img src={tetons} alt='Tetons' className='tetons' />
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <h3 className='card-header'>Before Intravenous Anesthesia</h3>
@@ -182,7 +182,7 @@
         
         <ExpansionPanel className='card' >
           <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-            <h3 className='card-header'>Direction for Optimal Healing after Implant Placement</h3>
+            <h3 className='card-header'>Implant Placement</h3>
           </ExpansionPanelSummary>
           <h4 className='sub-header'>Rest and Nutritious Foods: </h4>
           <p>
