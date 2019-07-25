@@ -275,7 +275,77 @@ const Procedures = () => {
           </ul>
         </ExpansionPanel>
 
-
+        <ExpansionPanel className='card' >
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+            <h3 className='card-header'>Obstructive Sleep Apnea (OSA)</h3>
+          </ExpansionPanelSummary>
+          <br/>
+          <h4 className='sub-header'>What is Obstructive Sleep Apnea? </h4>
+          <p>
+            “Apnea” means temporary cessation of breathing.  Obstructive Sleep Apnea is the obstruction of the upper airway during sleep. The airway obstruction can be caused by large tonsils, a large tongue, and problems with the airway muscles, nasal passages or position of the jaw. 
+          </p>
+          <br/>
+          <p>
+            As you sleep, your halted breathing initiates impulses from the brain to wake you just enough to restart the breathing process moving you from a deep sleep state to a light sleep state. This disruption in your sleeping pattern often causes you to be very tired in the morning, even though you slept through the night. 
+          </p>
+          <br />
+          <p>
+            Sleep apnea is generally defined as the presence of more than 30 apneas during a seven-hour sleep. In severe cases, periods of not breathing may last for as long as 60 to 90 seconds and may recur up to 500 times a night.
+          </p>
+          <br />
+          <h4 className='sub-header'>Why is sleep apnea dangerous? </h4>
+          <p>
+            Obstructive sleep apnea (OSA) is a serious and even life-threatening condition. The risks of undiagnosed OSA include heart attack, stroke, irregular heartbeat, high blood pressure, heart disease and decreased libido. In addition, OSA causes daytime drowsiness that can result in accidents, lower productivity and strained relationships. 
+          </p>
+          <br/>
+          <p>
+            The National Sleep Foundation estimates that 18 million adults have obstructive sleep apnea yet many people are unaware that they have it. If someone close to you has spoken of your loud snoring and has noticed that you often wake up abruptly, gasping for air, you should consult your Oral and Maxillofacial Surgeon. 
+          </p>
+          <br/>
+          <h4 className='sub-header'>Do I have obstructive sleep apnea? </h4>
+          <p>
+            People with OSA often don’t know they have the condition and assume they are sleeping well. Symptoms include:
+          </p>
+          <ul className='patient-care-list'>
+            <li>Snoring with pauses in breathing (typically noticed by a bed partner)</li>
+            <li>Excessive daytime drowsiness</li>
+            <li>Gasping or choking during sleep</li>
+            <li>Restless sleep</li>
+            <li>Problems with mental function</li>
+            <li>Poor judgment or difficulty focusing</li>
+            <li>Memory loss</li>
+            <li>Quick to anger</li>
+            <li>High blood pressure</li>
+            <li>Nighttime chest pain</li>
+            <li>Depression</li>
+            <li>Morning headaches</li>
+            <li>Reduced libido</li>
+            <li>Frequent trips to the bathroom at night</li>
+          </ul>
+          <br/>
+          <p>
+            If you have several of these symptoms, visit Dr. Hicks for a complete examination. If he suspects OSA, he will refer you to sleep clinic that can monitor your nighttime sleep patterns and help provide an accurate diagnosis.
+          </p>
+          <br />
+          <h4 className='sub-header'>How can Dr. Hicks help?</h4>
+          <p>There are a variety of treatments for Obstructive Sleep Apnea and your oral surgeon will help you decide the best treatment for your specific case, be it mild, moderate, or severe.</p>
+          <br />
+          <p>For mild cases of sleep apnea, treatments options include:</p>
+          <ul className='patient-care-list'>
+            <li>Behavior modification</li>
+            <li>C-PAP or Bi-PAP machine </li>
+            <li>Oral appliances</li>
+          </ul>
+          <br />
+          <p>
+            If these treatment options prove ineffective for an individual, there are surgical solutions to OSA. Dr. Hicks specializes in Telegnathic surgery, also known as Maxillomandibular Advancement (MMA).  Telegnathic surgery expands the airway by moving the jaw forward.
+          </p>
+          <br />
+          <p>
+            For more information on Obstructive Sleep Apnea, visit  
+            <a href='http://www.aaid-implant.org/about-dental-implants/what-are-dental-implants/'> myoms.org</a>.
+          </p>
+        </ExpansionPanel>
 
     </section>
   )
