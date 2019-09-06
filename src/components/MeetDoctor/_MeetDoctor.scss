@@ -5,8 +5,36 @@
   margin: 30px 0;
 }
 
-.about-p {
+.meet-main {
+  padding: 0 15%;
+}
 
+.headshot-div {
+  float: left;
+  width: 300px;
+}
+
+.education {
+  // float: none;
+}
+
+.about-p, .about-ul {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.about-ul {
+  margin-left: 44px;
+}
+
+.meet-header {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.preparation-img {
+  float: right;
+  // height: 100px;
 }
 
 .education-training {
