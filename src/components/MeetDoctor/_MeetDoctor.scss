@@ -2,27 +2,53 @@
   color: #263E76;
   font-size: 2.5rem;
   text-align: center;
-  margin: 30px 0;
+  margin: 30px 0 50px 0;
 }
 
-.about-doctor {
-  article {
-    margin-bottom: 50px;
-  }
-}
-
-.meet-main {
+.education-container {
   padding: 0 15%;
-}
-
-.headshot-div {
-  float: left;
-  width: 300px;
-  margin-top: 9px;
+  margin-bottom: 25px;
 }
 
 .education {
-  // float: none;
+  display: grid;
+  grid-template-areas: 
+  'education-h3 education-h3'
+  'headshot-img meet-p1'
+  'headshot-img meet-p2';
+  grid-template-columns: 25% 75%;
+}
+
+.education-h3 {
+  grid-area: education-h3;
+  margin-left: 25%;
+}
+
+.meet-p1 {
+  grid-area: meet-p1;
+}
+
+.meet-p1 {
+  grid-area: meet-p2;
+}
+
+.headshot-img {
+  grid-area: headshot-img;
+  margin-top: 8px;
+}
+
+.memberships {
+  display: grid;
+  grid-template-areas: 
+  'memberships-h3 preparation-img'
+  'about-ul preparation-img';
+  grid-template-columns: 60% 40%;
+}
+
+.memberships-container {
+  background-color: #F4F4F4;
+  padding: 25px 15%;
+  margin-bottom: 25px;
 }
 
 .about-p, .about-ul {
@@ -31,27 +57,76 @@
 }
 
 .about-ul {
-  margin-left: 44px;
+  margin-left: 20px;
+  grid-area: about-ul;
 }
 
 .meet-header {
   font-size: 1.5rem;
   margin-bottom: 15px;
+  color: #00a1e4;
 }
 
 .preparation-img {
-  float: right;
-  // height: 100px;
+  grid-area: preparation-img;
+}
+
+.experience-container {
+  padding: 0 15%;
+  margin-bottom: 25px;
+}
+
+.experience {
+  display: grid;
+  grid-template-areas: 
+  'experience-h3 experience-h3'
+  'experience-p1 experience-p1'
+  'experience-p2 operation-img'
+  'experience-p3 operation-img'
+  'experience-p4 operation-img';
+  grid-template-columns: 60% 40%;
+}
+
+.experience-h3 {
+  grid-area: experience-h3;
+}
+
+.experience-p1 {
+  grid-area: experience-p1;
+}
+
+.experience-p2 {
+  grid-area: experience-p2;
+}
+
+.experience-p3 {
+  grid-area: experience-p3;
+}
+
+.experience-p4 {
+  grid-area: experience-p4;
 }
 
 .operation-img {
-  float: left;
-  margin-right: 25px;
+  grid-area: operation-img;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.beyond-container {
+  background-color: #F4F4F4;
+  padding: 25px 15%;
+  margin-bottom: 25px;
 }
 
 .beyond {
   width: 700px;
 }
+
+.hobbies-p {
+  width: 100%;
+}
+//why isn't this working
 
 .motorcycle {
   grid-area: motorcycle;
@@ -66,13 +141,11 @@
 .ultra {
   grid-area: ultra;
   justify-self: center;
-
 }
 
 .climbing {
   grid-area: climbing;
   justify-self: center;
-
 }
 
 .hobbies-section {
@@ -83,7 +156,7 @@
   'ultra climbing';
   grid-template-columns: 1fr 1fr;
   article {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   h6 {
     font-size: .9rem;
