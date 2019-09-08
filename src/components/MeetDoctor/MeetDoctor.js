@@ -13,12 +13,10 @@ const MeetDoctor = () => {
     <main className='meet-main'>
       <h1 className='meet-doctor-name'>Meet Dr. Hicks</h1>
       <section className='about-doctor'>
-        <div className='headshot-div'>
-          <img src={doctorHeadshot} alt="Doctor Riley Hicks" className='headshot-img'/>
-          {/* <h6 className='headshot-h6'>Dr. Riley Hicks DDS, Board Certified Specialist</h6> */}
-        </div>
-
         <article className='education'>
+          <div className='headshot-div'>
+            <img src={doctorHeadshot} alt="Doctor Riley Hicks" className='headshot-img'/>
+          </div>
           <h3 className='meet-header'>Education and Training</h3>
           <p className='meet-p1 about-p'>
             Dr. Hicks is board certified by the American Board of Oral and Maxillofacial 
@@ -65,6 +63,7 @@ const MeetDoctor = () => {
             18 years, Dr. Hicks has provided a full range of surgical services to patients from 
             Eastern Idaho, Western Wyoming and even Salt Lake City.
           </p>
+          <img src={surgery} className='operation-img' alt="Doctor Hicks with staff operating on a patient" width='400px' />
           <p className='about-p'>
             Dr. Hicks, with his highly trained staff, provide in-office surgical services for 
             removal of third molars, extraction of decayed or damaged teeth in preparation for 
@@ -72,19 +71,18 @@ const MeetDoctor = () => {
             also performs corrective jaw surgery and trauma repair. These services can all be completed 
             while the patient is comfortably asleep using IV anesthesia.
           </p>
-          <p className='about-p'>
+          <p className='about-p floated-p'>
             He has also developed a particular specialty in the area of oral and facial lesion 
             removal and pathology. He has shared his knowledge with the local dental community 
             by presenting several seminars for area dentists and hygienists to increase the 
             knowledge base and awareness of oral cancers and lesions.
           </p>
-          <p className='about-p'>
+          <p className='about-p floated-p'>
             Dr. Hicks stays on the cutting edge of his field by attending continuing education 
             courses and conferences where he invests significant time learning the latest in 
             treatments and techniques. He is credentialed at both Idaho Falls hospitals and takes 
             on-call for any oral/facial trauma.
           </p>
-          <img src={surgery} alt="Doctor Hicks with staff operating on a patient" width='400px' />
         </article>
         
         <article className='beyond'>
@@ -104,29 +102,29 @@ const MeetDoctor = () => {
       </section>
 
       <section className='hobbies-section'>
-        <article className='hobby'>
-          <img src={motorcycle} alt="Doctor Hicks racing motorcyles with his children" width='200px' />
+        <article className='hobby motorcycle'>
+          <img src={motorcycle} alt="Doctor Hicks racing motorcyles with his children" width='800px' />
           <h6>
             Dr. Hicks (center) with sons Tanner (front), and Colton (back left) at Miller Motorsports race track
           </h6>
         </article>
-
-        <article className='hobby'>
-          <img src={family} alt="Doctor Hicks with his wife and children" width='200px' />
+        
+        <article className='hobby family'>
+          <img src={family} alt="Doctor Hicks with his wife and children" width='800px' />
           <h6>
             Hicks family on Jackson Pass. From Left to Right, Colton, Tanner, Riley, Levi, Lisa, and Jasmyn
           </h6>
         </article>
 
-        <article className='hobby'>
-          <img src={running} alt="Doctor Hicks running an ultra marathon" width='200px' />
+        <article className='hobby ultra'>
+          <img src={running} alt="Doctor Hicks running an ultra marathon" width='400px' />
           <h6>
             Dr. Hicks frequently runs ultra marathons
           </h6>
         </article>
 
-        <article className='hobby'>
-          <img src={climbing} alt="Doctor Hicks climbing in the Tetons" width='200px' />
+        <article className='hobby climbing'>
+          <img src={climbing} alt="Doctor Hicks climbing in the Tetons" width='400px' />
           <h6>
             Dr. Hicks ascending Cube Point, overlooking Jenny Lake near Jackson Hole, Wyoming.
           </h6>

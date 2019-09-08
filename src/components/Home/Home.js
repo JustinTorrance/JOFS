@@ -1,12 +1,12 @@
 import React from 'react'
 import map from '../../assets/map.png'
-import teton5 from '../../assets/teton5.jpg'
+import office from '../../assets/office.jpg'
 
 const Home = () => {
   return (
     <main className='home'>
       <section className='office-img-container'>
-        <img src={teton5} alt="Jackson Wyoming" className='jackson-img'/>
+        <img src={office} alt="The Jackson Office" className='office-img'/>
         <div className='home-name-div'>
           <h1 className='home-office-name'>Jackson Oral and Facial Surgery</h1>
           <h3 className='home-doctor-name'>Dr. Riley J. Hicks, DDS</h3>

@@ -5,6 +5,12 @@
   margin: 30px 0;
 }
 
+.about-doctor {
+  article {
+    margin-bottom: 50px;
+  }
+}
+
 .meet-main {
   padding: 0 15%;
 }
@@ -12,6 +18,7 @@
 .headshot-div {
   float: left;
   width: 300px;
+  margin-top: 9px;
 }
 
 .education {
@@ -19,7 +26,7 @@
 }
 
 .about-p, .about-ul {
-  line-height: 20px;
+  line-height: 23px;
   margin-bottom: 15px;
 }
 
@@ -37,10 +44,48 @@
   // height: 100px;
 }
 
-.education-training {
+.operation-img {
+  float: left;
+  margin-right: 25px;
+}
+
+.beyond {
+  width: 700px;
+}
+
+.motorcycle {
+  grid-area: motorcycle;
+  justify-self: center;
+}
+
+.family {
+  grid-area: family;
+  justify-self: center;
+}
+
+.ultra {
+  grid-area: ultra;
+  justify-self: center;
 
 }
 
-.experience {
+.climbing {
+  grid-area: climbing;
+  justify-self: center;
 
+}
+
+.hobbies-section {
+  display: grid;
+  grid-template-areas: 
+  'motorcycle motorcycle'
+  'family family'
+  'ultra climbing';
+  grid-template-columns: 1fr 1fr;
+  article {
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-size: .9rem;
+  }
 }
