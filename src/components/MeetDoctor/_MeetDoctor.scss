@@ -123,38 +123,33 @@
   width: 700px;
 }
 
-.hobbies-p {
-  width: 100%;
-}
-//why isn't this working
-
 .motorcycle {
   grid-area: motorcycle;
-  justify-self: center;
+  // justify-self: center;
 }
 
 .family {
   grid-area: family;
-  justify-self: center;
+  // justify-self: center;
 }
 
 .ultra {
   grid-area: ultra;
-  justify-self: center;
+  // justify-self: center;
 }
 
 .climbing {
   grid-area: climbing;
-  justify-self: center;
+  justify-self: right;
 }
 
-.hobbies-section {
+.hobbies-container {
   display: grid;
   grid-template-areas: 
   'motorcycle motorcycle'
   'family family'
   'ultra climbing';
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 420px 420px;
   article {
     margin-bottom: 30px;
   }

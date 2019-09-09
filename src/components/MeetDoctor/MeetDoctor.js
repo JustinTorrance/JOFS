@@ -109,14 +109,14 @@ const MeetDoctor = () => {
 
         <section className='hobbies-container'>
           <article className='hobby motorcycle'>
-            <img src={motorcycle} alt="Doctor Hicks racing motorcyles with his children" width='800px' />
+            <img src={motorcycle} alt="Doctor Hicks racing motorcyles with his children" width='820' />
             <h6>
               Dr. Hicks (center) with sons Tanner (front), and Colton (back left) at Miller Motorsports race track
             </h6>
           </article>
           
           <article className='hobby family'>
-            <img src={family} alt="Doctor Hicks with his wife and children" width='800px' />
+            <img src={family} alt="Doctor Hicks with his wife and children" width='820' />
             <h6>
               Hicks family on Jackson Pass. From Left to Right, Colton, Tanner, Riley, Levi, Lisa, and Jasmyn
             </h6>
