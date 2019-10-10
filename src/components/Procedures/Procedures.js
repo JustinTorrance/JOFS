@@ -31,9 +31,6 @@ const Procedures = () => {
             Local anesthesia (numbing the area of surgery)
           </li>
           <li>
-            Local anesthesia (numbing the area of surgery)
-          </li>
-          <li>
             General anesthesia (patient is fully asleep)
           </li>
         </ul>
