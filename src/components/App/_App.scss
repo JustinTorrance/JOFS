@@ -31,10 +31,19 @@
   margin: 20px 0;
 }
 
-@media screen and (min-width: 1440px) {
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 1450px) {
   .content-wrapper {
     width: 1440px;
   }
+
+  .header-section {
+    justify-content: space-between;
+  }
+
   .App {
     font-family: 'Lato', sans-serif;
     background-color: white;
@@ -42,3 +51,9 @@
     justify-content: center;
   }
 } 
+
+@media screen and (max-width: 950px) {
+  .hide {
+    display: unset;
+  }
+}

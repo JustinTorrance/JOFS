@@ -113,3 +113,38 @@
 .friday-hours {
   margin-left: 92px;
 }
+
+@media screen and (max-width: 1000px) {
+  .home-office-name {
+    font-size: 2.5rem;
+  }
+
+  .home-doctor-name {
+    font-size: 1.8rem;
+  }
+
+  .call-visit {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+
+  .home-name-div {
+    margin-left: 20%;
+  }
+
+  .home-office-name {
+    font-size: 2.2rem;
+  }
+
+  .home-doctor-name {
+    font-size: 1.4rem;
+  }
+
+  .call-visit {
+    font-size: 1.5rem;
+  }
+
+}
