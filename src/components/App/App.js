@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import Home from '../Home/Home';
 import MeetDoctor from '../MeetDoctor/MeetDoctor';
@@ -28,9 +28,11 @@ export default function App () {
       <div className="App">
         <div className='content-wrapper'>
           <div className='header-section'>
-            <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-              <MenuIcon />
-            </Button>
+            <div className='menu-btn'>
+              <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} className='menu-btn'>
+                <MenuIcon className='menu-btn' />
+              </Button>
+            </div>
             <Menu
               id="simple-menu"
               anchorEl={anchorEl}
@@ -43,10 +45,10 @@ export default function App () {
               <MenuItem onClick={handleClose}>Logout</MenuItem>
             </Menu>
             <NavLink to='/' exact className='nav'>Home</NavLink>
+            <NavLink to='/doctors' className='nav'>New Patients</NavLink>
             <NavLink to='/meet' className='nav'>Meet Dr. Hicks</NavLink>
             <NavLink to='/procedures' className='nav'>Procedures and Services</NavLink>
             <NavLink to='/patients' className='nav'>Patient Care</NavLink>
-            <NavLink to='/doctors' className='nav'>Referring Doctors</NavLink>
             <NavLink to='/contact' className='nav'>Contact Us</NavLink>
           </div>
           <Switch>
