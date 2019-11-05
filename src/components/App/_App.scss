@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
-* {
-  font-family: 'Lato', sans-serif;
-}
-
 .header-section {
+  font-family: 'Lato', sans-serif;
   display: flex;
   justify-content: space-around;
   font-weight: 300;
@@ -34,13 +31,29 @@
   margin: 20px 0;
 }
 
-@media screen and (min-width: 1440px) {
+.menu-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1450px) {
   .content-wrapper {
     width: 1440px;
   }
+
+  .header-section {
+    justify-content: space-between;
+  }
+
   .App {
+    font-family: 'Lato', sans-serif;
     background-color: white;
     display: flex;
     justify-content: center;
+  }
+} 
+
+@media screen and (max-width: 950px) {
+  .menu-btn {
+    display: unset;
   }
 }
