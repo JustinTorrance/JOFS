@@ -45,7 +45,7 @@ export default function App () {
               <MenuItem onClick={handleClose}>Logout</MenuItem>
             </Menu>
             <NavLink to='/' exact className='nav'>Home</NavLink>
-            <NavLink to='/doctors' className='nav'>New Patients</NavLink>
+            <NavLink to='/register' className='nav'>New Patients</NavLink>
             <NavLink to='/meet' className='nav'>Meet Dr. Hicks</NavLink>
             <NavLink to='/procedures' className='nav'>Procedures and Services</NavLink>
             <NavLink to='/patients' className='nav'>Patient Care</NavLink>
@@ -57,9 +57,9 @@ export default function App () {
             <Route path='/patients' component={Patients} />
             <Route path='/contact' component={Contact} />
             <Route path='/procedures' component={Procedures} />
-            <Route path='/doctors' component={Doctors} />
+            <Route path='/register' component={Doctors} />
           </Switch>
-          <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2019</p>
+          <p className='copyright'>Jackson Oral and Facial Surgery &copy; 2020</p>
         </div>
       </div>
     );

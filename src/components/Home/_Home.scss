@@ -1,39 +1,69 @@
-.home {
-  font-family: Georgia, 'Times New Roman', Times, serif
-}
-
 .office-img-container {
   position: relative;
+  height: 700px;
+  overflow: hidden;
 }
 
 .office-img {
   width: 100%;
+  display: block;
+  margin-top: -18%;
 }
 
 .home-name-div {
-  color: #263E76;
+  // color: #263E76;
   position: absolute;
-  margin-top: -44%;
-  margin-left: 25%;
+  width: 100%;
+  margin-top: -46%;
+  // margin-left: 7%;
+  text-align: left;
 }
 
 .home-office-name {
-  font-size: 3.2rem;
-  font-weight: 500;
+  margin-left: 100px;
+  font-size: 3.8rem;
+  font-weight: 200;
+  background-color: #263E76;
+  background-image: linear-gradient(45deg, #263E76, #4b6090, #3656a1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  // background: -webkit-linear-gradient(#eee, #263E76);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+}
+
+.divider {
+  background: linear-gradient(to right, #263E76, #4b6090, #3656a1);
+  height: 3px;
+  margin: 20px 100px 0 100px;
+  border-radius: 5px;
 }
 
 .home-doctor-name {
-  font-size: 2rem;
-  margin-top: 10px;
-  font-weight: 400;
+  // font-size: 2rem;
+  // margin-top: 10px;
+  // font-weight: 400;
+  
 }
 
 .call-visit {
   text-align: center;
-  color: #263E76;
+  // color: #263E76;
   margin: 30px;
   font-size: 1.8rem;
   font-weight: 400;
+
+  background-color: #263E76;
+  background-image: linear-gradient(45deg, #263E76, #4b6090, #3656a1);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+
 }
 
 .home-bottom {
@@ -42,6 +72,7 @@
 
 .home-contact-section {
   background-color: #263E76;
+  background-image: linear-gradient(45deg, #1a294d, #263E76, #4b6090);
   color: white;
   display: flex;
   flex-direction: column;
@@ -77,7 +108,13 @@
 }
 
 .view-map-div {
-  background-color: #5EC0F9;
+
+  // #6d9eba
+
+  // background-color: #263E76;
+  background-image: linear-gradient(45deg, #51a3d2, #89c7eb);
+
+  // background-color: #5EC0F9;
   height: 45px;
   display: flex;
   align-items: center;
@@ -106,7 +143,7 @@
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 500;
   margin-right: 5px;
 }
 

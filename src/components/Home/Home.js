@@ -9,7 +9,8 @@ const Home = () => {
         <img src={office} alt="The Jackson Office" className='office-img'/>
         <div className='home-name-div'>
           <h1 className='home-office-name'>Jackson Oral and Facial Surgery</h1>
-          <h3 className='home-doctor-name'>Dr. Riley J. Hicks, DDS</h3>
+          <hr class='divider'/>
+          {/* <h3 className='home-doctor-name'>Dr. Riley J. Hicks, DDS</h3> */}
         </div>
       </section>
       <section className="home-bottom">
@@ -28,7 +29,7 @@ const Home = () => {
             <p className='friday-hours'>Friday: 8am - 4pm</p>
           </article>
           <article className='map-article-wrapper'>
-            <a className='map-link' href='https://www.google.com/maps/place/1325+US-89+APT+105,+Jackson,+WY+83001/@43.4597739,-110.7964651,17z/data=!3m1!4b1!4m5!3m4!1s0x535310bc0a54a6fd:0xddf5df58b9d7eeda!8m2!3d43.4597739!4d-110.7949129'>
+            <a className='map-link' href='https://www.google.com/maps/place/Jackson+Oral+and+Facial+Surgery/@43.4593867,-110.7958678,18.04z/data=!4m5!3m4!1s0x0:0xdac96ecbddd1aa72!8m2!3d43.4597739!4d-110.7949129'>
               <img className='office-map' src={map} alt='Map of the office location' width='400px'/>
               <div className='view-map-div'>
                 <p className='view-map'>View Map</p>
