@@ -10,12 +10,34 @@
   margin-top: -18%;
 }
 
+// .storefront-wrapper {
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+// }
+
+.card-style {
+  box-shadow:
+    0 0.1px 1.3px rgba(0, 0, 0, 0.051),
+    0 0.3px 3.2px rgba(0, 0, 0, 0.073),
+    0 0.5px 6px rgba(0, 0, 0, 0.09),
+    0 0.9px 10.7px rgba(0, 0, 0, 0.107),
+    0 1.7px 20.1px rgba(0, 0, 0, 0.129),
+    0 4px 48px rgba(0, 0, 0, 0.18)
+  ;
+}
+
+
+.office2 {
+  border-radius: 5px;
+  margin: 10px 0 30px 0;
+  // margin-bottom: 30px;
+}
+
 .home-name-div {
-  // color: #263E76;
   position: absolute;
   width: 100%;
   margin-top: -46%;
-  // margin-left: 7%;
   text-align: left;
 }
 
@@ -30,9 +52,6 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-  // background: -webkit-linear-gradient(#eee, #263E76);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
 }
 
 .divider {
@@ -51,11 +70,9 @@
 
 .call-visit {
   text-align: center;
-  // color: #263E76;
   margin: 30px;
   font-size: 1.8rem;
   font-weight: 400;
-
   background-color: #263E76;
   background-image: linear-gradient(45deg, #263E76, #4b6090, #3656a1);
   background-size: 100%;
@@ -74,7 +91,7 @@
   background-color: #263E76;
   background-image: linear-gradient(45deg, #1a294d, #263E76, #4b6090);
   color: white;
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   width: 100%;
@@ -108,13 +125,7 @@
 }
 
 .view-map-div {
-
-  // #6d9eba
-
-  // background-color: #263E76;
-  background-image: linear-gradient(45deg, #51a3d2, #89c7eb);
-
-  // background-color: #5EC0F9;
+  background-image: linear-gradient(45deg, #51a3d2, #80b6d6);
   height: 45px;
   display: flex;
   align-items: center;
@@ -151,6 +162,12 @@
   margin-left: 92px;
 }
 
+@media screen and (max-width: 1200px) {
+  .home-office-name {
+    font-size: 2.8rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .home-office-name {
     font-size: 2.5rem;
@@ -168,10 +185,6 @@
 
 @media screen and (max-width: 780px) {
 
-  .home-name-div {
-    margin-left: 20%;
-  }
-
   .home-office-name {
     font-size: 2.2rem;
   }
@@ -184,4 +197,16 @@
     font-size: 1.5rem;
   }
 
+}
+
+@media screen and (max-width: 600px) {
+  .home-office-name {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-office-name {
+    font-size: 1.5rem;
+  }
 }

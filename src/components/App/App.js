@@ -46,14 +46,14 @@ export default function App () {
             </Menu>
             <NavLink to='/' exact className='nav'>Home</NavLink>
             <NavLink to='/register' className='nav'>New Patients</NavLink>
-            <NavLink to='/meet' className='nav'>Meet Dr. Hicks</NavLink>
+            <NavLink to='/meetdrhicks' className='nav'>Meet Dr. Hicks</NavLink>
             <NavLink to='/procedures' className='nav'>Procedures and Services</NavLink>
             <NavLink to='/patients' className='nav'>Patient Care</NavLink>
             <NavLink to='/contact' className='nav'>Contact Us</NavLink>
           </div>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/meet' component={MeetDoctor} />
+            <Route path='/meetdrhicks' component={MeetDoctor} />
             <Route path='/patients' component={Patients} />
             <Route path='/contact' component={Contact} />
             <Route path='/procedures' component={Procedures} />

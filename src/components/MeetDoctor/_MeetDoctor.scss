@@ -16,12 +16,12 @@
   'education-h3 education-h3'
   'headshot-img meet-p1'
   'headshot-img meet-p2';
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 30% 70%;
 }
 
 .education-h3 {
   grid-area: education-h3;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 .meet-p1 {
@@ -35,6 +35,8 @@
 .headshot-img {
   grid-area: headshot-img;
   margin-top: 8px;
+  width: 230px;
+  // height: 300px;
 }
 
 .memberships {
@@ -117,25 +119,45 @@
   background-color: #F4F4F4;
   padding: 25px 15%;
   margin-bottom: 25px;
+
+}
+
+.beyond-header {
+  grid-area: beyond-header;
 }
 
 .beyond {
-  width: 700px;
+  // grid-area: beyond;
+  // width: 700px;
+  display: grid;
+  grid-template-areas: 
+  'beyond-header motorcycle'
+  'hobbies-p1 motorcycle'
+  'hobbies-p2 motorcycle';
+  grid-template-columns: 60% 40%;
+}
+
+.hobbies-p1 {
+  grid-area: hobbies-p1;
+  margin-right: 20px;
+}
+
+.hobbies-p2 {
+  grid-area: hobbies-p2;
+  margin-right: 20px;
+
 }
 
 .motorcycle {
   grid-area: motorcycle;
-  // justify-self: center;
 }
 
 .family {
   grid-area: family;
-  // justify-self: center;
 }
 
 .ultra {
   grid-area: ultra;
-  // justify-self: center;
 }
 
 .climbing {
@@ -144,16 +166,20 @@
 }
 
 .hobbies-container {
+  margin-top: 40px;
+  width: 100%;
   display: grid;
   grid-template-areas: 
-  'motorcycle motorcycle'
-  'family family'
   'ultra climbing';
   grid-template-columns: 420px 420px;
+  justify-content: center;
   article {
     margin-bottom: 30px;
   }
+}
+
+.hobby {
   h6 {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 }
