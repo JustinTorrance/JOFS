@@ -22,7 +22,7 @@
           <br/>
           <h4 className='sub-header'>The Week Before:</h4>
           <p>
-            Get lots of sleep and eat healthy foods.
+            Get lots of sleep and eat healthy foods. 5 days prior to surgery, get 8-9 hours of sleep each night. Begin eating a high-protein diet consisting of 1 gram of protein per kilogram of body weight.
           </p>
           <br/>
           <p>
